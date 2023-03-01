@@ -39,3 +39,15 @@ bpdPContent.textContent = "ME TOO!";
 blackPinkDiv.appendChild(bpdPContent);
 
 container.appendChild(blackPinkDiv);
+
+const btn = document.querySelector('#btn');
+btn.onclick = () => alert("Hello Beelke!");
+
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', () => {
+  alert("Hello World");
+});
+
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
